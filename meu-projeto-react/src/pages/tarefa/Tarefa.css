@@ -1,0 +1,57 @@
+.tarefa-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background: #2ecc71;
+    color: white;
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .lista-tarefas {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lista-tarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    background: #f8f9fa;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    transition: background 0.2s;
+  }
+  
+  .lista-tarefas li:hover {
+    background: #e9ecef;
+  }
+  
+  .botao-remover {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }  

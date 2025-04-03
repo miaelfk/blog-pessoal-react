@@ -1,12 +1,12 @@
-import Home from './pages/home/Home';
+import Router from './routes/Router';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="app-container">
-      <Home />
+      <Router />
     </div>
   );
-}
+};
 
 export default App;
